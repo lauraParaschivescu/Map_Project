@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<positions xmlns="urn:Positions.namespace"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="urn:Positions.namespace Positions.xsd">
+    <position id="1">
+        <name>Ajutor programator</name>
+        <type>Full-time</type>
+    </position>
+    <position id="2">
+    <name>Ajutor bucatar1</name>
+    <type>Full-time1</type>
+    </position>
+    <position id="3">
+    <name>Bucatar</name>
+    <type>Part-time</type>
+    </position>
+    <position id="90">
+    <name>iohi</name>
+    <type>oiouo</type>
+    </position>
+    <position id="900">
+    <name>iohi1</name>
+    <type>oiouo</type>
+    </position>
+    <position id="578">
+    <name>jghj</name>
+    <type>hkhjk</type>
+    </position>
+
+</positions>

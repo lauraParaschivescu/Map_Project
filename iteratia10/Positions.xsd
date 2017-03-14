@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:Positions.namespace" xmlns="urn:Positions.namespace">
+    <xs:element name="positions" type="positionsType"/>
+    <xs:complexType name="positionsType">
+        <xs:sequence>
+            <xs:element type="positionType" name="position" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="positionType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="name"/>
+            <xs:element type="xs:string" name="type">
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute type="xs:int" name="id" use="required"/>
+    </xs:complexType>
+</xs:schema>
